@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "linkfree",
+  "description": "Set yourself free from remembering long, frequently-used links forever.",
+  "version": "1.0.0",
+  "icons": {
+    "64": "icons/icon.png"
+  },
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "permissions": [
+    "activeTab",
+    "contextMenus",
+    "bookmarks"
+  ]
+}
