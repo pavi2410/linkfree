@@ -3,8 +3,14 @@
   "name": "linkfree",
   "description": "Set yourself free from remembering long, frequently-used links forever.",
   "version": "1.0.0",
+  "author": "Pavitra Golchha",
   "icons": {
     "64": "icons/icon.png"
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "linkfree+addon@pavi2410.me"
+    }
   },
   "background": {
     "scripts": ["background.js"]
