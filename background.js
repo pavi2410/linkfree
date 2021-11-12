@@ -25,7 +25,7 @@ async function linkfreeReplace(tabId) {
     throw new Error("Couldn't get search phrase")
   }
 
-  const bookmarkItems = await browser.bookmarks.search(tag)
+  const bookmarkItems = await browser.bookmarks.search(searchPhrase)
   if (!bookmarkItems.length) {
     throw new Error("Bookmark not found")
   }
